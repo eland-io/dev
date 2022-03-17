@@ -1,0 +1,10 @@
+{
+    "configurations": [
+        {
+            "name": "Eland.io Search",
+            "request": "launch",
+            "type": "vscode-edge-devtools.debug",
+            "url": "https://localhost:5500" // Provide your project's url to finish configuring
+        }
+    ]
+}

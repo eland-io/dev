@@ -1,0 +1,48 @@
+{
+    "openapi": "3.0.2",
+    "info": {
+        "title": "API Title",
+        "version": "0.0.1"
+    },
+    "servers": [
+        {
+            "url": "https://eland-io.github.io/search/",
+            "description": "Development Server"
+        }
+    ],
+    "components": {
+        "schemas": {
+            "engine": {
+                "type": "object",
+                "properties": {
+                    "id": {
+                        "type": "number"
+                    },
+                    "": {}
+                }
+            }
+        }
+    },
+    "paths": {
+        "/engines": {
+            "get": {
+                "description": "A List of HTTP Search Engines",
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "content": {
+                            "application/json": {
+                                "schema": {
+                                    "type": "array",
+                                    "items": {
+                                        "$ref": "#/components/schemas/engine"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
