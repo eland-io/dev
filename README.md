@@ -1,5 +1,5 @@
 <!-- HEADER -->
-# [Eland Search](#)
+# [Eland API](#)
 <!-- MAIN -->
 ## [Documentation](#)
 ### Overview
